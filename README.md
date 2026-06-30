@@ -5,6 +5,7 @@
 > **Facultad de Ingeniería en Ciencias de la Computación y Telecomunicaciones**  
 > **Materia: INF-312 - Base de Datos I**  
 > **Evaluación sobre 100 puntos según rúbrica oficial**
+> **Autor:** sARA RAQUEL SAHONERO SALAS
 
 ---
 
@@ -973,7 +974,6 @@ MIT License - Libre para uso académico y comercial
 
 ---
 
-**Autor:** Alejandro [Tu Apellido]  
+**Autor:** sARA RAQUEL SAHONERO SALAS
 **Materia:** INF-312 Base de Datos I  
-**Universidad:** UAGRM  
-**Última actualización:** Enero 2024
+
