@@ -4,7 +4,7 @@
 > **Universidad Autónoma "Gabriel René Moreno"**  
 > **Facultad de Ingeniería en Ciencias de la Computación y Telecomunicaciones**  
 > **Materia: INF-312 - Base de Datos I**  
-> **Evaluación sobre 100 puntos según rúbrica oficial**
+
 > **Autor:** sARA RAQUEL SAHONERO SALAS
 
 ---
@@ -422,9 +422,7 @@ Si no coinciden → Fraude/Error detectado
 
 ---
 
-## 🎯 Criterios de Evaluación (100 puntos)
-
-### 1️⃣ MODELADO CONCEPTUAL (UML) - 20 puntos
+### 1️⃣ MODELADO CONCEPTUAL (UML) 
 
 **Clases principales:**
 
@@ -478,7 +476,7 @@ Si no coinciden → Fraude/Error detectado
 
 ---
 
-### 2️⃣ MODELO RELACIONAL Y NORMALIZACIÓN - 20 puntos
+### 2️⃣ MODELO RELACIONAL Y NORMALIZACIÓN
 
 **PK bien definidas:**
 - MOVIMIENTO.id: BIGSERIAL (surrogada, no depende de placa volátil)
@@ -515,7 +513,7 @@ UNIQUE (codigo_qr)
 
 ---
 
-### 3️⃣ IMPLEMENTACIÓN SQL (DDL + DML) - 20 puntos
+### 3️⃣ IMPLEMENTACIÓN SQL (DDL + DML)
 
 **Script ejecutable:**
 
@@ -588,8 +586,7 @@ WHERE id = 1;
 
 ---
 
-### 4️⃣ CONSULTAS, VISTAS Y RESULTADOS - 25 puntos
-
+### 4️⃣ CONSULTAS, VISTAS Y RESULTADOS 
 **Consulta 1: Movimientos pendientes de pago**
 ```sql
 SELECT m.id, m.placa, m.tipo_evento, m.monto_calculado, m.codigo_qr, o.nombre
@@ -690,7 +687,7 @@ AND fecha_hora_entrada < CURRENT_TIMESTAMP - INTERVAL '12 hours';
 
 ---
 
-### 5️⃣ DEFENSA TÉCNICA Y TRABAJO EN EQUIPO - 15 puntos
+### 5️⃣ DEFENSA TÉCNICA Y TRABAJO EN EQUIPO 
 
 **Pregunta 1: ¿Por qué PK surrogada (BIGSERIAL) y no placa?**
 
@@ -791,9 +788,8 @@ AND fecha_hora_entrada < CURRENT_TIMESTAMP - INTERVAL '12 hours';
 
 ---
 
-## 📋 Checklist de Cumplimiento (100 puntos)
-
-### ✅ Modelado Conceptual (20 puntos)
+## 📋 Checklist de Cumplimiento 
+### ✅ Modelado Conceptual 
 - [ ] 8 pts: Clases con atributos correctos
   - [ ] MOVIMIENTO: id, placa, tipo_evento, fechas, duración, monto, estado_pago, código_qr, operario_id
   - [ ] OPERARIO: id, nombre, email, rol
@@ -806,7 +802,7 @@ AND fecha_hora_entrada < CURRENT_TIMESTAMP - INTERVAL '12 hours';
   - [ ] Pago manual
   - [ ] Auditoría (operario_id, fecha)
 
-### ✅ Modelo Relacional y Normalización (20 puntos)
+### ✅ Modelo Relacional y Normalización 
 - [ ] 8 pts: PK/FK bien definidas
   - [ ] PK surrogada (BIGSERIAL)
   - [ ] FK hacia OPERARIOS (auditoría)
@@ -821,7 +817,7 @@ AND fecha_hora_entrada < CURRENT_TIMESTAMP - INTERVAL '12 hours';
   - [ ] 3FN: Sin dependencias transitivas ✓
   - [ ] Documento explícito de normalización
 
-### ✅ Implementación SQL (20 puntos)
+### ✅ Implementación SQL 
 - [ ] 8 pts: Script ejecutable
   - [ ] CREATE TABLE para todas las tablas
   - [ ] FOREIGN KEY constraints
@@ -836,7 +832,7 @@ AND fecha_hora_entrada < CURRENT_TIMESTAMP - INTERVAL '12 hours';
   - [ ] Caso 2: entrada sin salida (aún adentro)
   - [ ] Caso 3: pago pendiente
 
-### ✅ Consultas, Vistas y Resultados (25 puntos)
+### ✅ Consultas, Vistas y Resultados 
 - [ ] 12 pts: 5 consultas requeridas
   - [ ] Q1: Pendientes de pago
   - [ ] Q2: Ingresos diarios
@@ -852,7 +848,7 @@ AND fecha_hora_entrada < CURRENT_TIMESTAMP - INTERVAL '12 hours';
   - [ ] V2: Reporte diario (entradas, salidas, ingresos)
   - [ ] V3: Anomalías (autos >12h adentro)
 
-### ✅ Defensa Técnica y Equipo (15 puntos)
+### ✅ Defensa Técnica y Equipo 
 - [ ] 6 pts: Explicación clara del diseño
   - [ ] Pregunta 1: PK/FK ✓
   - [ ] Pregunta 2: Anomalías ✓
