@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Resumen Ejecutivo
+## 📌 Resumen
 
 PARKIA es un **sistema de gestión inteligente de estacionamientos para escritorio** diseñado para automatizar completamente la administración de un parqueo comercial sin infraestructura costosa.
 
