@@ -5,7 +5,7 @@
 > **Facultad de Ingeniería en Ciencias de la Computación y Telecomunicaciones**  
 > **Materia: INF-312 - Base de Datos I**  
 
-> **Autor:** sARA RAQUEL SAHONERO SALAS
+> **Autor:** SARA RAQUEL SAHONERO SALAS
 
 ---
 
