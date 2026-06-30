@@ -16,7 +16,7 @@ PARKIA es un **sistema de gestión inteligente de estacionamientos para escritor
 **Arquitectura:**
 - **Módulo Admin (Escritorio):** Solo para empleado/administrador. Interfaz Tkinter
 - **QR Cliente:** Cliente genera QR único con tarifa calculada. Sin interfaz cliente
-- **BD Relacional:** PostgreSQL (Supabase) normalizada 3FN, auditoría completa
+- **BD Relacional:** PostgreSQL normalizada 3FN, auditoría completa
 
 **Flujo:**
 1. Cámara detecta placa (OCR) → Auto ENTRA
